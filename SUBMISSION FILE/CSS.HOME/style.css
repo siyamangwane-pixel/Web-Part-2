@@ -1,0 +1,185 @@
+  body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: #ffffff;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover, nav a.active {
+            background-color: #0284c7;
+        }
+
+      
+        .hero {
+            background-color: #0284c7;
+            color: #ffffff;
+            text-align: center;
+            padding: 3.5rem 1.5rem;
+        }
+
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 1.5rem auto;
+        }
+
+        .btn-container {
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #1e3a8a;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0f172a;
+        }
+
+      
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .about-card, .target-card {
+            background-color: #ffffff;
+            border-left: 6px solid #1e3a8a;
+            border-radius: 6px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .about-card h3, .target-card h3 {
+            color: #1e3a8a;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .event-banner {
+            background-color: #e0f2fe;
+            border: 2px dashed #0284c7;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .event-banner h3 {
+            color: #1e3a8a;
+            margin-top: 0;
+        }
+
+        footer{
+            background-color: #1e3a8a;
+            color: #ffffff;
+            padding: 2rem 1rem 1rem 1rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .footer-section h4 {
+            border-bottom: 2px solid #0284c7;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+
+        .footer-section p, .footer-section a {
+            color: #f8fafc;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .footer-section a:hover {
+            color: #0284c7;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            border-top: 1px solid #0284c7;
+            padding-top: 1rem;
+        }
+
+            @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            .hero h2 {
+                font-size: 1.75rem;
+            }
+        }
